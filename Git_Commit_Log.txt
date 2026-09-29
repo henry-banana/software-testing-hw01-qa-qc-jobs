@@ -1,3 +1,12 @@
+* commit cd8aa01264bb426648059deb0a0589b0f502f523
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:30:28 2026 +0700
+| 
+|     docs(hw01): format commit log as raw Git history
+| 
+|  Git_Commit_Log.txt | 117 ++++++++++++++++++++++++++++-----------------------
+|  1 file changed, 64 insertions(+), 53 deletions(-)
+| 
 * commit d93a327f72a41a489b3439acc10c99fd6f85042e
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:27:15 2026 +0700
