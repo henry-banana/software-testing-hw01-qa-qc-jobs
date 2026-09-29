@@ -1,63 +1,85 @@
+* commit ccd14925ddc779db39054aa098242c75369462f3 (HEAD -> main, origin/main, origin/HEAD)
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 23:03:49 2026 +0700
+|
+|     docs: Rename Report.md and add PDF report
+|
+|     Rename Report.md to 23120262_Report.md and add the generated PDF file 23120262_Report.pdf. This adds the student's report in both markdown and PDF formats.
+|
+|  Report.md => 23120262_Report.md |   0
+|  23120262_Report.pdf             | Bin 0 -> 8704845 bytes
+|  2 files changed, 0 insertions(+), 0 deletions(-)
+|
+* commit 5e35b2815a8f3003b575ce000f3474b4d7a1de18
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:34:32 2026 +0700
+|
+|     docs(hw01): add submission README and current commit log
+|
+|  Git_Commit_Log.txt |  9 +++++++
+|  README.md          | 64 ++++++++++++++++++++++++++++++++++++++++++++
+|  2 files changed, 73 insertions(+)
+|
 * commit cd8aa01264bb426648059deb0a0589b0f502f523
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:30:28 2026 +0700
-| 
+|
 |     docs(hw01): format commit log as raw Git history
-| 
-|  Git_Commit_Log.txt | 117 ++++++++++++++++++++++++++++-----------------------
+|
+|  Git_Commit_Log.txt | 117 +++++++++++++++++++++++--------------------
 |  1 file changed, 64 insertions(+), 53 deletions(-)
-| 
+|
 * commit d93a327f72a41a489b3439acc10c99fd6f85042e
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:27:15 2026 +0700
-| 
+|
 |     docs(hw01): record verified assignment commit history
-| 
-|  Git_Commit_Log.txt | 53 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+|
+|  Git_Commit_Log.txt | 53 ++++++++++++++++++++++++++++++++++++++++++++
 |  1 file changed, 53 insertions(+)
-| 
+|
 * commit 34f5a4be48e0113e73c77d0253e2810ba5c72e73
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:26:01 2026 +0700
-| 
+|
 |     docs(hw01): add AI compliance records and signed forms
-| 
-|  Appendix_A_Prompt_Log.md                       | 334 +++++++++++++++++++++++
-|  [AI-02] - FIT@HCMUS - AI Audit Report.md       |  86 ++++++
-|  [AI-02] - FIT@HCMUS - AI Audit Report.pdf      | Bin 0 -> 301322 bytes
-|  [AI-03] - FIT@HCMUS - AI Disclosure Form.md    | 108 ++++++++
-|  [AI-03] - FIT@HCMUS - AI Disclosure Form.pdf   | Bin 0 -> 246697 bytes
-|  [AI-05] - FIT@HCMUS - AI Privacy Checklist.md  |  62 +++++
-|  [AI-05] - FIT@HCMUS - AI Privacy Checklist.pdf | Bin 0 -> 191053 bytes
+|
+|  Appendix_A_Prompt_Log.md                     | 334 +++++++++++++++++
+|  [AI-02] - FIT@HCMUS - AI Audit Report.md     |  86 +++++
+|  [AI-02] - FIT@HCMUS - AI Audit Report.pdf    | Bin 0 -> 301322 bytes
+|  [AI-03] - FIT@HCMUS - AI Disclosure Form.md  | 108 ++++++
+|  [AI-03] - FIT@HCMUS - AI Disclosure Form.pdf | Bin 0 -> 246697 bytes
+|  ...05] - FIT@HCMUS - AI Privacy Checklist.md |  62 +++
+|  ...5] - FIT@HCMUS - AI Privacy Checklist.pdf | Bin 0 -> 191053 bytes
 |  7 files changed, 590 insertions(+)
-| 
+|
 * commit 77e7494c9b2bdbc9ffc0656375429788e685da55
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:26:00 2026 +0700
-| 
+|
 |     test(hw01): add fan test cases and execution evidence
-| 
-|  Device_Evidence/device_nameplate_label.jpg       | Bin 0 -> 3060188 bytes
-|  Device_Evidence/device_photo_with_student_id.jpg | Bin 0 -> 3546572 bytes
-|  Test_Cases_Checklist_Test_Summary.xlsx           | Bin 0 -> 111271 bytes
-|  Video_Links.md                                   |  14 ++++++++++++++
+|
+|  Device_Evidence/device_nameplate_label.jpg   | Bin 0 -> 3060188 bytes
+|  .../device_photo_with_student_id.jpg         | Bin 0 -> 3546572 bytes
+|  Test_Cases_Checklist_Test_Summary.xlsx       | Bin 0 -> 111271 bytes
+|  Video_Links.md                               |  14 ++++++++++++++
 |  4 files changed, 14 insertions(+)
-| 
+|
 * commit 18d19373ac8401acc0e600232bb73fe9eb7ad1d6
 | Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
 | Date:   Tue Sep 29 22:26:00 2026 +0700
-| 
+|
 |     docs(hw01): add consolidated job and defect report
-| 
-|  Report.md | 899 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|
+|  Report.md | 899 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 |  1 file changed, 899 insertions(+)
-| 
+|
 * commit 4826c9adcc2d724827cf1d17791fc7b5a29e33b2
   Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
   Date:   Tue Sep 29 22:25:48 2026 +0700
-  
+
       docs(hw01): add QA/QC job research and role mindmap
-  
+
    .../job_01_trusting-social.png                    | Bin 0 -> 164138 bytes
    Job_Posting_Screenshots/job_02_ins-enco.png       | Bin 0 -> 203569 bytes
    Job_Posting_Screenshots/job_03_pillar.png         | Bin 0 -> 185334 bytes
