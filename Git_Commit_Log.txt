@@ -1,53 +1,64 @@
-GIT COMMIT LOG — HW01-AI
-
-Repository: https://github.com/henry-banana/software-testing-hw01-qa-qc-jobs
-Branch: main
-Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
-Generated: 2026-09-29 (UTC+07:00)
-
-This log records the substantive assignment commits created before this log file
-was committed. Every hash, timestamp, author, and message below was read from the
-repository's actual Git history; no history entry was fabricated or backdated.
-
-1. QA/QC job-market evidence and role mindmap
-   Commit: 4826c9adcc2d724827cf1d17791fc7b5a29e33b2
-   Date: 2026-09-29T22:25:48+07:00
-   Message: docs(hw01): add QA/QC job research and role mindmap
-   Scope:
-   - 10 dated job-posting screenshots
-   - QAQC_Role_Mindmap.md
-   - QAQC_Role_Mindmap.png
-
-2. Consolidated assignment report
-   Commit: 18d19373ac8401acc0e600232bb73fe9eb7ad1d6
-   Date: 2026-09-29T22:26:00+07:00
-   Message: docs(hw01): add consolidated job and defect report
-   Scope:
-   - Report.md
-
-3. Physical-product test design and execution evidence
-   Commit: 77e7494c9b2bdbc9ffc0656375429788e685da55
-   Date: 2026-09-29T22:26:00+07:00
-   Message: test(hw01): add fan test cases and execution evidence
-   Scope:
-   - Test_Cases_Checklist_Test_Summary.xlsx
-   - Device_Evidence/device_nameplate_label.jpg
-   - Device_Evidence/device_photo_with_student_id.jpg
-   - Video_Links.md
-
-4. AI-use records and signed compliance forms
-   Commit: 34f5a4be48e0113e73c77d0253e2810ba5c72e73
-   Date: 2026-09-29T22:26:01+07:00
-   Message: docs(hw01): add AI compliance records and signed forms
-   Scope:
-   - Appendix_A_Prompt_Log.md
-   - [AI-02] - FIT@HCMUS - AI Audit Report.md and PDF
-   - [AI-03] - FIT@HCMUS - AI Disclosure Form.md and PDF
-   - [AI-05] - FIT@HCMUS - AI Privacy Checklist.md and PDF
-
-Verification command:
-git log --reverse --date=iso-strict --pretty=format:"%H | %ad | %an | %ae | %s"
-
-Note: The commit that adds this Git_Commit_Log.txt file necessarily occurs after
-the log content is generated and is therefore visible in the repository history,
-not self-referenced in the content above.
+* commit d93a327f72a41a489b3439acc10c99fd6f85042e
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:27:15 2026 +0700
+| 
+|     docs(hw01): record verified assignment commit history
+| 
+|  Git_Commit_Log.txt | 53 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 53 insertions(+)
+| 
+* commit 34f5a4be48e0113e73c77d0253e2810ba5c72e73
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:26:01 2026 +0700
+| 
+|     docs(hw01): add AI compliance records and signed forms
+| 
+|  Appendix_A_Prompt_Log.md                       | 334 +++++++++++++++++++++++
+|  [AI-02] - FIT@HCMUS - AI Audit Report.md       |  86 ++++++
+|  [AI-02] - FIT@HCMUS - AI Audit Report.pdf      | Bin 0 -> 301322 bytes
+|  [AI-03] - FIT@HCMUS - AI Disclosure Form.md    | 108 ++++++++
+|  [AI-03] - FIT@HCMUS - AI Disclosure Form.pdf   | Bin 0 -> 246697 bytes
+|  [AI-05] - FIT@HCMUS - AI Privacy Checklist.md  |  62 +++++
+|  [AI-05] - FIT@HCMUS - AI Privacy Checklist.pdf | Bin 0 -> 191053 bytes
+|  7 files changed, 590 insertions(+)
+| 
+* commit 77e7494c9b2bdbc9ffc0656375429788e685da55
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:26:00 2026 +0700
+| 
+|     test(hw01): add fan test cases and execution evidence
+| 
+|  Device_Evidence/device_nameplate_label.jpg       | Bin 0 -> 3060188 bytes
+|  Device_Evidence/device_photo_with_student_id.jpg | Bin 0 -> 3546572 bytes
+|  Test_Cases_Checklist_Test_Summary.xlsx           | Bin 0 -> 111271 bytes
+|  Video_Links.md                                   |  14 ++++++++++++++
+|  4 files changed, 14 insertions(+)
+| 
+* commit 18d19373ac8401acc0e600232bb73fe9eb7ad1d6
+| Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+| Date:   Tue Sep 29 22:26:00 2026 +0700
+| 
+|     docs(hw01): add consolidated job and defect report
+| 
+|  Report.md | 899 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 899 insertions(+)
+| 
+* commit 4826c9adcc2d724827cf1d17791fc7b5a29e33b2
+  Author: Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+  Date:   Tue Sep 29 22:25:48 2026 +0700
+  
+      docs(hw01): add QA/QC job research and role mindmap
+  
+   .../job_01_trusting-social.png                    | Bin 0 -> 164138 bytes
+   Job_Posting_Screenshots/job_02_ins-enco.png       | Bin 0 -> 203569 bytes
+   Job_Posting_Screenshots/job_03_pillar.png         | Bin 0 -> 185334 bytes
+   Job_Posting_Screenshots/job_04_scc-vietnam.png    | Bin 0 -> 187915 bytes
+   Job_Posting_Screenshots/job_05_money-forward.png  | Bin 0 -> 154584 bytes
+   Job_Posting_Screenshots/job_06_home-credit.png    | Bin 0 -> 192132 bytes
+   Job_Posting_Screenshots/job_07_corsair.png        | Bin 0 -> 185709 bytes
+   Job_Posting_Screenshots/job_08_razer.png          | Bin 0 -> 169418 bytes
+   Job_Posting_Screenshots/job_09_cmc-global.png     | Bin 0 -> 202954 bytes
+   Job_Posting_Screenshots/job_10_aperia.png         | Bin 0 -> 177479 bytes
+   QAQC_Role_Mindmap.md                              | 139 ++++++++++++++++++++
+   QAQC_Role_Mindmap.png                             | Bin 0 -> 1513766 bytes
+   12 files changed, 139 insertions(+)
